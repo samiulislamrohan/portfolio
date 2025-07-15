@@ -6,6 +6,7 @@ body {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
     
 }
 .nav-bar {
@@ -13,13 +14,14 @@ body {
     justify-content: space-between;
     align-items: center;
     /* background-color:antiquewhite; */
-    margin:0px 200px;
+    margin-left:200px;
 }
 .nav-bar h3{
    font-size: 45px;
    font-weight: 800;
 }
 .banner {
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +34,8 @@ body {
 
 }
 .banner-profile-pic{
-   width:635px;
+   width:600px;
+
 }
 
 nav h3 span {
@@ -45,7 +48,7 @@ nav ul {
 nav ul li {
    text-decoration: none;
    list-style: none;
-   margin: 50px;
+   margin-left: 50px;
    font-size: 20px;
 }
 nav ul a {
